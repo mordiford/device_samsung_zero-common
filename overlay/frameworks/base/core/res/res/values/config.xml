@@ -266,14 +266,6 @@
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface" translatable="false">rmnet0</string>
 
-    <!-- Default web browser.  This is the package name of the application that will
-         be the default browser when the device first boots.  Afterwards the user
-         can select whatever browser app they wish to use as the default.
-
-         If this string is empty or the specified package does not exist, then
-         the behavior will be as though no app was named as an explicit default. -->
-    <string name="default_browser" translatable="false">org.mozilla.firefox</string>
-
     <!-- Boolean indicating if restoring network selection should be skipped -->
     <!-- The restoring is handled by modem if it is true -->
     <bool translatable="false" name="skip_restoring_network_selection">true</bool>
@@ -375,10 +367,6 @@
 
     <!-- For performance and storage reasons, limit the number of fingerprints per user -->
     <integer name="config_fingerprintMaxTemplatesPerUser">4</integer>
-
-    <!-- If enabled, capacitive keys will only light up when pressed.
-         Otherwise, the buttons will light up whenever the user interacts with the device -->
-    <bool name="config_buttonLightOnKeypressOnly">true</bool>
 
     <!-- Defines the default set of global actions. Actions may still be disabled or hidden based
          on the current state of the device.
